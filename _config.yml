@@ -1,0 +1,10 @@
+name: "Research Blog"
+description: "Joes' blog about random stuff he is researching, projects, and resume."
+
+url: "http://houngj.github.io"
+
+paginate: 10
+
+markdown: rdiscount
+permalink: pretty
+pygments: true
