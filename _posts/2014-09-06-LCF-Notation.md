@@ -5,13 +5,13 @@ layout: default
 
 I've been researching the awesome things you can do with D3.js and one of them is [building cubic hamiltonian graphs from lcf notations](http://christophermanning.org/projects/building-cubic-hamiltonian-graphs-from-lcf-notation/).
 
+<iframe src="http://christophermanning.org/gists/1703449/#/[4]8/0/0" marginwidth="100" marginheight="100" scrolling="no"></iframe>
+
 For those unfamiliar with hamiltonian graphs, it is a graph that contains a cycle (closed loop) that visits each node exactly once. An example of LCF notations is [2]\^4 which is a representation of a tetrahedral graph. The numbers between the square brackets are interpreted modulo N, where N is the number of vertices. The number of vertices, N, is equal to the number of elements inside of the brakets multiplied by the number outside of the brakets.
 
 To explain how a hamiltonian graph is created through its LCF notation, lets say there exists a LCF that is [A1, A2, A3 .., An]b. Now lets say that array A = [A1, A2, A3 .., An] and that integer B = b.
 
 The program starts with a circle graph with vertices Vertex(0) to Vertex(N-1).
-
-<iframe src="http://bl.ocks.org/mbostock/raw/4061502/0a200ddf998aa75dfdb1ff32e16b680a15e5cb01/" marginwidth="0" marginheight="0" scrolling="no"></iframe>
 
 > Steps:
 >
