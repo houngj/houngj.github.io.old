@@ -8,7 +8,7 @@ layout: default
     <h2>{{ post.title }}</h2>
     <h4>{{ post.date | date_to_long_string }}</h4>
     <p>
-      {{ post.content | strip_html | truncatewords:75}}<br>
+      {{ post.content | strip_html }}<br>
       <a href="{{ post.url }}">Read Post</a><br>
     </p>
   </div>
