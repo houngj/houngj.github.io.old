@@ -79,6 +79,9 @@ d3.json("miserables.json", function(error, graph) {
 </script>
 
 > Steps:
+>
 > 1) Starting from Vertex(0), connect to Vertex(0) to Vertex(0 + A[0]).
+>
 > 2) Repeat Step1 for Vertex(1) to Vertex(N-1).
+>
 > 3) Repeat Step1 and Step2 B-1 times.
