@@ -20,3 +20,5 @@ The program starts with a circle graph with vertices Vertex(0) to Vertex(N-1).
 > 2) Repeat Step1 for Vertex(1) to Vertex(N-1).
 >
 > 3) Repeat Step1 and Step2 B-1 times.
+
+This sets connects all nodes to their other nodes to make a cubic hamiltonian graph.
