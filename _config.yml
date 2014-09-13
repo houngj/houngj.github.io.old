@@ -2,7 +2,7 @@ name: "Research Blog"
 description: "Joes' blog about random stuff he is researching, projects, and resume."
 
 url: "http://houngj.github.io"
-
+about: "http://houngj.github.io/about"
 paginate: 10
 
 markdown: rdiscount
